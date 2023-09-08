@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ebebeb;
+    color: #333333;
+    
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+#div{
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+#image{
+    height: auto;
+    display: block;
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+#img-caption{
+    text-align: center;
+    width: 70%;
+    margin: 1rem auto;
+}
+h1, h3, .last-p{
+   text-align: center;
+   margin: 2rem;
+   font-weight: 900;
+}
+ul{
+    margin: 0 auto 50px;
+    text-align: left;
+    max-width: 70%;
+    line-height: 2;
+}
+blockquote{
+    width: 80%;
+    text-align: center;
+    line-height: 2;
+    margin: 0 auto;
+}
+li{
+    margin: 10px 0;
+}
+a:any-link{
+    color: #333333;
+}
+cite{
+    margin: 0;
+}
